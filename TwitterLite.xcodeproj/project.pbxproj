@@ -12,6 +12,21 @@
 		7630613820D3904500CB04A2 /* TwitterLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7630613620D3904500CB04A2 /* TwitterLite.xcdatamodeld */; };
 		7630613A20D3904500CB04A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7630613920D3904500CB04A2 /* Assets.xcassets */; };
 		7630613D20D3904500CB04A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7630613B20D3904500CB04A2 /* LaunchScreen.storyboard */; };
+		7630614820D3933900CB04A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7630614720D3933900CB04A2 /* LoginView.swift */; };
+		7630614B20D3934700CB04A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7630614920D3934700CB04A2 /* LoginViewController.swift */; };
+		7630614C20D3934700CB04A2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7630614A20D3934700CB04A2 /* LoginViewController.xib */; };
+		76B0639F20D3F714004DFA5E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0639E20D3F714004DFA5E /* MainTabBarViewController.swift */; };
+		76B063A320D3F75F004DFA5E /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063A220D3F75F004DFA5E /* UITabBarController+Extensions.swift */; };
+		76B063A820D40B12004DFA5E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063A620D40B12004DFA5E /* PostViewController.swift */; };
+		76B063A920D40B12004DFA5E /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B063A720D40B12004DFA5E /* PostViewController.xib */; };
+		76B063AC20D40B28004DFA5E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063AB20D40B28004DFA5E /* PostView.swift */; };
+		76B063AE20D40B3B004DFA5E /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063AD20D40B3B004DFA5E /* FavoriteView.swift */; };
+		76B063B120D40B4B004DFA5E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063AF20D40B4B004DFA5E /* FavoriteViewController.swift */; };
+		76B063B220D40B4B004DFA5E /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B063B020D40B4B004DFA5E /* FavoriteViewController.xib */; };
+		76B063B520D40EF3004DFA5E /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B063B420D40EF3004DFA5E /* CommonConstants.swift */; };
+		76CFEDEA20D3CF2300F553E1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CFEDE820D3CF2300F553E1 /* FeedViewController.swift */; };
+		76CFEDEB20D3CF2300F553E1 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CFEDE920D3CF2300F553E1 /* FeedViewController.xib */; };
+		76CFEDEE20D3CF3800F553E1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CFEDED20D3CF3800F553E1 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		7630613920D3904500CB04A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7630613C20D3904500CB04A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7630613E20D3904500CB04A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7630614720D3933900CB04A2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7630614920D3934700CB04A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7630614A20D3934700CB04A2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		76B0639E20D3F714004DFA5E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		76B063A220D3F75F004DFA5E /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
+		76B063A620D40B12004DFA5E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		76B063A720D40B12004DFA5E /* PostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
+		76B063AB20D40B28004DFA5E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		76B063AD20D40B3B004DFA5E /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		76B063AF20D40B4B004DFA5E /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		76B063B020D40B4B004DFA5E /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		76B063B420D40EF3004DFA5E /* CommonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
+		76CFEDE820D3CF2300F553E1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		76CFEDE920D3CF2300F553E1 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		76CFEDED20D3CF3800F553E1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +110,8 @@
 		7630614420D3929600CB04A2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				76B063B320D40EDF004DFA5E /* Constants */,
+				76B063A020D3F739004DFA5E /* Libs */,
 				7630614520D3929E00CB04A2 /* UI */,
 			);
 			path = Source;
@@ -88,8 +120,85 @@
 		7630614520D3929E00CB04A2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				76B063A520D409C9004DFA5E /* PostViewController */,
+				76B063A420D40852004DFA5E /* FavoriteViewController */,
+				76B0639C20D3F6EE004DFA5E /* MainTabBarViewController */,
+				76CFEDE720D3CF0A00F553E1 /* FeedViewController */,
+				7630614620D3932300CB04A2 /* LoginViewController */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		7630614620D3932300CB04A2 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7630614920D3934700CB04A2 /* LoginViewController.swift */,
+				7630614A20D3934700CB04A2 /* LoginViewController.xib */,
+				7630614720D3933900CB04A2 /* LoginView.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		76B0639C20D3F6EE004DFA5E /* MainTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B0639E20D3F714004DFA5E /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBarViewController;
+			sourceTree = "<group>";
+		};
+		76B063A020D3F739004DFA5E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				76B063A120D3F73F004DFA5E /* Extensions */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		76B063A120D3F73F004DFA5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				76B063A220D3F75F004DFA5E /* UITabBarController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		76B063A420D40852004DFA5E /* FavoriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B063AF20D40B4B004DFA5E /* FavoriteViewController.swift */,
+				76B063B020D40B4B004DFA5E /* FavoriteViewController.xib */,
+				76B063AD20D40B3B004DFA5E /* FavoriteView.swift */,
+			);
+			path = FavoriteViewController;
+			sourceTree = "<group>";
+		};
+		76B063A520D409C9004DFA5E /* PostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B063A620D40B12004DFA5E /* PostViewController.swift */,
+				76B063A720D40B12004DFA5E /* PostViewController.xib */,
+				76B063AB20D40B28004DFA5E /* PostView.swift */,
+			);
+			path = PostViewController;
+			sourceTree = "<group>";
+		};
+		76B063B320D40EDF004DFA5E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				76B063B420D40EF3004DFA5E /* CommonConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		76CFEDE720D3CF0A00F553E1 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76CFEDE820D3CF2300F553E1 /* FeedViewController.swift */,
+				76CFEDE920D3CF2300F553E1 /* FeedViewController.xib */,
+				76CFEDED20D3CF3800F553E1 /* FeedView.swift */,
+			);
+			path = FeedViewController;
 			sourceTree = "<group>";
 		};
 		D8088DB954E4AFF917F9A7BA /* Pods */ = {
@@ -165,6 +274,10 @@
 			files = (
 				7630613D20D3904500CB04A2 /* LaunchScreen.storyboard in Resources */,
 				7630613A20D3904500CB04A2 /* Assets.xcassets in Resources */,
+				76B063B220D40B4B004DFA5E /* FavoriteViewController.xib in Resources */,
+				76CFEDEB20D3CF2300F553E1 /* FeedViewController.xib in Resources */,
+				7630614C20D3934700CB04A2 /* LoginViewController.xib in Resources */,
+				76B063A920D40B12004DFA5E /* PostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +349,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B063B520D40EF3004DFA5E /* CommonConstants.swift in Sources */,
+				76B063A820D40B12004DFA5E /* PostViewController.swift in Sources */,
+				7630614B20D3934700CB04A2 /* LoginViewController.swift in Sources */,
+				7630614820D3933900CB04A2 /* LoginView.swift in Sources */,
+				76CFEDEA20D3CF2300F553E1 /* FeedViewController.swift in Sources */,
+				76B0639F20D3F714004DFA5E /* MainTabBarViewController.swift in Sources */,
+				76B063AE20D40B3B004DFA5E /* FavoriteView.swift in Sources */,
 				7630613820D3904500CB04A2 /* TwitterLite.xcdatamodeld in Sources */,
+				76CFEDEE20D3CF3800F553E1 /* FeedView.swift in Sources */,
 				7630613020D3904500CB04A2 /* AppDelegate.swift in Sources */,
+				76B063AC20D40B28004DFA5E /* PostView.swift in Sources */,
+				76B063B120D40B4B004DFA5E /* FavoriteViewController.swift in Sources */,
+				76B063A320D3F75F004DFA5E /* UITabBarController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +492,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JXTVQ459TL;
+				DEVELOPMENT_TEAM = K33J7AD8C7;
 				INFOPLIST_FILE = TwitterLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSN.TwitterLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,8 +509,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JXTVQ459TL;
+				DEVELOPMENT_TEAM = K33J7AD8C7;
 				INFOPLIST_FILE = TwitterLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSN.TwitterLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";

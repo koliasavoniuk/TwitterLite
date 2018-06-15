@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // MARK: - Twitter
+        
+        TWTRTwitter.sharedInstance().start(withConsumerKey:"LvpE5X7j2rPgNtIFqE1tqdk4N", consumerSecret:"FtUZTxGXTiWEfjuSORc4K143i7I2rEkoFaXMh0vDISDQ4X1iY4")
+        
+        // MARK: - Main VC Initialization
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        
+        let controller = LoginViewController()
+        self.window?.rootViewController = controller
+        self.window?.makeKeyAndVisible()
         return true
     }
 
@@ -43,7 +55,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
+    }
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
