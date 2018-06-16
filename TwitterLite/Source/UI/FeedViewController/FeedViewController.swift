@@ -7,12 +7,11 @@
 //
 
 import UIKit
+import TwitterKit
 
 class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
+        super.viewDidLoad()    
     }
 }

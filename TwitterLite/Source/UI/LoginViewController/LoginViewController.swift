@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     // MARK: - Private
 
     private func createTwitterLoginButton() {
-        let logInButton = TWTRLogInButton(logInCompletion: { session, error in
+        let logInButton = TWTRLogInButton(logInCompletion: {session, error in
             if (session != nil) {
                 self.present(MainTabBarViewController(), animated: true, completion: nil)
             } else {

@@ -120,11 +120,11 @@
 		7630614520D3929E00CB04A2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				76B063A520D409C9004DFA5E /* PostViewController */,
-				76B063A420D40852004DFA5E /* FavoriteViewController */,
+				7630614620D3932300CB04A2 /* LoginViewController */,
 				76B0639C20D3F6EE004DFA5E /* MainTabBarViewController */,
 				76CFEDE720D3CF0A00F553E1 /* FeedViewController */,
-				7630614620D3932300CB04A2 /* LoginViewController */,
+				76B063A520D409C9004DFA5E /* PostViewController */,
+				76B063A420D40852004DFA5E /* FavoriteViewController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
